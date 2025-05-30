@@ -31,6 +31,9 @@ class Biblioteca:
         if livro.emprestado:
             raise ValueError(f"Livro '{titulo_livro}' já está emprestado")
 
+        if len(usuario.livros_emprestados) >= 3:
+            raise ValueError("Limite de empréstimos atingido")
+
         usuario.livros_emprestados.append(livro)
         livro.emprestado = True
 
