@@ -27,16 +27,6 @@ pip install -r requirements.txt
 
 ---
 
-## Executando a Aplicação
-
-Para iniciar a interface de linha de comando, execute:
-
-```bash
-python main.py
-```
-
----
-
 ## Executando Testes e Gerando Relatório de Cobertura
 
 ### Rodar os testes com coverage:
