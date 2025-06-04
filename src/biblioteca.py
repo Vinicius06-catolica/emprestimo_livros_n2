@@ -1,5 +1,6 @@
 from src.livro import Livro
 from src.usuario import Usuario
+from datetime import date
 
 class Biblioteca:
     def __init__(self):
@@ -36,6 +37,7 @@ class Biblioteca:
 
         usuario.livros_emprestados.append(livro)
         livro.emprestado = True
+        livro.data_emprestimo = date.today()
 
     def devolver_livro(self, nome_usuario: str, titulo_livro: str):
         usuario = self._buscar_usuario(nome_usuario)
@@ -46,3 +48,4 @@ class Biblioteca:
 
         usuario.livros_emprestados.remove(livro)
         livro.emprestado = False
+        livro.data_emprestimo = None

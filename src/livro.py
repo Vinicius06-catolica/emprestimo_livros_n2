@@ -3,4 +3,5 @@ class Livro:
         self.titulo = titulo
         self.autor = autor
         self.emprestado = False
+        self.data_emprestimo = None
 
