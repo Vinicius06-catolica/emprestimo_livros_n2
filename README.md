@@ -1,3 +1,9 @@
+## Grupo
+
+Nomes: Vinícius Bueno de Oliveira, João Vitor Dal-Ri, Nicolas Soares Oliveira, Bernardo Wehmuth e Otávio Augusto dos Santos
+
+## Setup
+
 ### Clonar repo
 
 
